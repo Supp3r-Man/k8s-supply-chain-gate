@@ -1,6 +1,6 @@
 # k8s-supply-chain-gate
 
-![ci](https://github.com/Sup3rMar10/k8s-supply-chain-gate/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/Supp3r-Man/k8s-supply-chain-gate/actions/workflows/ci.yml/badge.svg)
 
 A pipeline that scans, builds, **signs** (keyless, with Sigstore) and attaches an **SBOM** to a container image, followed by a test that a Kubernetes admission policy actually **admits the signed image and rejects an unsigned one**.
 
